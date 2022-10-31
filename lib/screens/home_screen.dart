@@ -8,11 +8,16 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('PRESS THE ICON FOR ADDING IMAGE')),
+      appBar: AppBar(
+          centerTitle: true,
+          backgroundColor: Colors.blueGrey,
+          title: const Text(
+            'PRESS THE ICON FOR ADDING IMAGE',
+          )),
       body: Center(
         child: IconButton(
           icon: const Icon(
-            Icons.upload_file,
+            Icons.add_a_photo,
             size: 50,
           ),
           onPressed: () async {
