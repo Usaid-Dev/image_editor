@@ -8,17 +8,25 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.black,
       appBar: AppBar(
+          automaticallyImplyLeading: false,
           centerTitle: true,
           backgroundColor: Colors.blueGrey,
           title: const Text(
             'PRESS THE ICON FOR ADDING IMAGE',
+            style: TextStyle(
+                color: Colors.black,
+                fontWeight: FontWeight.bold,
+                fontStyle: FontStyle.italic,
+                fontSize: 18),
           )),
       body: Center(
         child: IconButton(
           icon: const Icon(
             Icons.add_a_photo,
             size: 50,
+            color: Colors.white,
           ),
           onPressed: () async {
             XFile? file = await ImagePicker().pickImage(
