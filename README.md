@@ -15,4 +15,6 @@ A completely responsive Image Editor App- Works on Android & IOS
 - Decrease Font Size 
 - Save Image To Gallery
 
+### Image of App
 
+<img src="https://user-images.githubusercontent.com/67046451/203210729-4f15f761-f805-4c54-9403-fe1f15ca8d90.png">
